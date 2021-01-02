@@ -6,7 +6,7 @@
     "test": "jest --passWithNoTests",
     "dev": "cross-env NODE_ENV=development nodemon ./server/index.js --watch ./server/index.js",
     "build": "NEXT_TELEMETRY_DISABLED=1 next build",
-    "start": "node_modules/cross-env/src/bin/cross-env.js NODE_ENV=production node ./server/index.js"
+    "start": "./node_modules/cross-env/src/bin/cross-env.js NODE_ENV=production node ./server/index.js"
   },
   "repository": {
     "type": "git",
